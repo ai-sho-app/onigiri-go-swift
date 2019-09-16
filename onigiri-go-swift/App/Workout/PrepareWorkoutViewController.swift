@@ -12,36 +12,43 @@ import UIKit
 
 class PrepareWorkoutViewController: UIViewController {
 
-    var workoutTimer: Timer?
     let MAX_COUNT = 3
-    var timerCount: Int = 0
-    let timerText = UITextView()
-    let backButton = UIButton(type: .custom)
+    var workoutTimer: Timer?
+
+    lazy var timerCount: Int = {
+        return MAX_COUNT
+    }()
+
+    lazy var timerText: UITextView = {
+        let textview = UITextView()
+        textview.frame = CGRect(x:0, y:0, width:100, height:100)
+        textview.backgroundColor = UIColor.themeOrange
+        textview.center = self.view.center
+        textview.text = String(timerCount)
+        return textview
+    }()
+
+    lazy var backButton: UIButton = {
+        let button = UIButton(type: .custom)
+        button.setImage(UIImage(named: "ButtonStart"), for: .normal)
+        button.frame = CGRect(x:0, y:0, width:100, height:100)
+        button.center = self.view.center
+        button.setTitle("back!", for: .normal)
+        button.addTarget(self, action: #selector(back(sender:)), for: .touchUpInside)
+        return button
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // TODO: view design
-        self.view.backgroundColor = UIColor.themeOrange
-
-        // TODO: Start Timer
-        timerCount = MAX_COUNT
+        // timer start
         workoutTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(countTimer), userInfo: nil, repeats: true)
 
+        // TODO: view design
+        self.view.backgroundColor = UIColor.themeOrange
         // TODO: replace text to image
-        timerText.frame = CGRect(x:0, y:0, width:100, height:100)
-        timerText.backgroundColor = UIColor.themeOrange
-        timerText.center = self.view.center
-        timerText.text = String(timerCount)
         view.addSubview(timerText)
-
         // TODO: button design
-        backButton.setImage(UIImage(named: "ButtonStart"), for: .normal)
-        backButton.frame = CGRect(x:0, y:0, width:100, height:100)
-        backButton.center = self.view.center
-        backButton.setTitle("back!", for: .normal)
-
-        backButton.addTarget(self, action: #selector(back(sender:)), for: .touchUpInside)
         view.addSubview(backButton)
     }
 
