@@ -44,12 +44,12 @@ class HomeTabViewController: UITabBarController {
         self.view.addSubview(button)
         self.view.bringSubviewToFront(button)
 
-        button.addTarget(self, action: #selector(buttonEvent(sender:)), for: .touchUpInside)
+        button.addTarget(self, action: #selector(pressWorkoutButton(sender:)), for: .touchUpInside)
     }
 
-    @objc
-    private func buttonEvent(sender: UIButton) {
-        print("ボタンが押された")
-        print("このメソッドを呼び出したボタンの情報: \(sender)")
+    @objc private func pressWorkoutButton(sender: UIButton) {
+        print("Press workout button from \(sender)")
+        let prepareWorkoutVC = PrepareWorkoutViewController()
+        self.present(prepareWorkoutVC, animated: true, completion: nil)
     }
 }
