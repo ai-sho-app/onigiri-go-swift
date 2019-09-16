@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,7 +17,9 @@
 		E4C4518822E324FC0035C4A6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4518722E324FC0035C4A6 /* HomeViewController.swift */; };
 		E4C4518A22E325A30035C4A6 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4518922E325A30035C4A6 /* ReportViewController.swift */; };
 		E4C4519322E60FF60035C4A6 /* CustomUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4519222E60FF60035C4A6 /* CustomUIColor.swift */; };
-		E4C4519522E6113A0035C4A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C4519422E6113A0035C4A6 /* Assets.xcassets */; };
+		E4F2D91F230C482300E095E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F2D91E230C482300E095E3 /* Assets.xcassets */; };
+		E4F2D921232F7CB800E095E3 /* PrepareWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F2D920232F7CB800E095E3 /* PrepareWorkoutViewController.swift */; };
+		E4F2D923232FC8EF00E095E3 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F2D922232FC8EF00E095E3 /* WorkoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +61,9 @@
 		E4C4518722E324FC0035C4A6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E4C4518922E325A30035C4A6 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 		E4C4519222E60FF60035C4A6 /* CustomUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIColor.swift; sourceTree = "<group>"; };
-		E4C4519422E6113A0035C4A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4F2D91E230C482300E095E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4F2D920232F7CB800E095E3 /* PrepareWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareWorkoutViewController.swift; sourceTree = "<group>"; };
+		E4F2D922232FC8EF00E095E3 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
 		F110B4792BD1E9A47627A7EF /* Pods-onigiri-go-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onigiri-go-swiftUITests.release.xcconfig"; path = "Target Support Files/Pods-onigiri-go-swiftUITests/Pods-onigiri-go-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +115,6 @@
 				9711F3CA64AFE8F5AA930E2A /* Pods-onigiri-go-swiftUITests.debug.xcconfig */,
 				F110B4792BD1E9A47627A7EF /* Pods-onigiri-go-swiftUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -204,6 +207,8 @@
 		E4C4517C22E31B9E0035C4A6 /* Workout */ = {
 			isa = PBXGroup;
 			children = (
+				E4F2D920232F7CB800E095E3 /* PrepareWorkoutViewController.swift */,
+				E4F2D922232FC8EF00E095E3 /* WorkoutViewController.swift */,
 			);
 			path = Workout;
 			sourceTree = "<group>";
@@ -211,7 +216,7 @@
 		E4C4517D22E31B9E0035C4A6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E4C4519422E6113A0035C4A6 /* Assets.xcassets */,
+				E4F2D91E230C482300E095E3 /* Assets.xcassets */,
 				E4C4517F22E31B9E0035C4A6 /* Info.plist */,
 			);
 			path = Resources;
@@ -334,7 +339,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C4519522E6113A0035C4A6 /* Assets.xcassets in Resources */,
+				E4F2D91F230C482300E095E3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +450,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F2D921232F7CB800E095E3 /* PrepareWorkoutViewController.swift in Sources */,
 				E4C4519322E60FF60035C4A6 /* CustomUIColor.swift in Sources */,
+				E4F2D923232FC8EF00E095E3 /* WorkoutViewController.swift in Sources */,
 				E4C4518A22E325A30035C4A6 /* ReportViewController.swift in Sources */,
 				E4C4518122E31B9F0035C4A6 /* AppDelegate.swift in Sources */,
 				E4C4518022E31B9F0035C4A6 /* HomeTabViewController.swift in Sources */,
@@ -522,6 +529,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -536,6 +544,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -583,6 +592,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -591,6 +601,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
