@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9060EC3C07F6ECF8B3749946 /* Pods_onigiri_go_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEB31AB482E4A92E5819886 /* Pods_onigiri_go_swift.framework */; };
-		B892D1BC17E618BB3C14C0D7 /* Pods_onigiri_go_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB07DEF77EEED15D39C5A94F /* Pods_onigiri_go_swiftTests.framework */; };
-		DCE9889DDB0C962715A1A3F1 /* Pods_onigiri_go_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65462AFF438577C8D4D6AF44 /* Pods_onigiri_go_swiftUITests.framework */; };
 		E4C4515D22E2F5400035C4A6 /* onigiri_go_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4515C22E2F5400035C4A6 /* onigiri_go_swiftTests.swift */; };
 		E4C4516822E2F5400035C4A6 /* onigiri_go_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4516722E2F5400035C4A6 /* onigiri_go_swiftUITests.swift */; };
 		E4C4518022E31B9F0035C4A6 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4517822E31B9E0035C4A6 /* HomeTabViewController.swift */; };
@@ -40,14 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		033FC5A6EDC0D1C2ED2AE931 /* Pods-onigiri-go-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onigiri-go-swiftTests.release.xcconfig"; path = "Target Support Files/Pods-onigiri-go-swiftTests/Pods-onigiri-go-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
-		3077548D9D1FAC02977A1C43 /* Pods-onigiri-go-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onigiri-go-swift.debug.xcconfig"; path = "Target Support Files/Pods-onigiri-go-swift/Pods-onigiri-go-swift.debug.xcconfig"; sourceTree = "<group>"; };
-		4AA7E4764E26C000607C893D /* Pods-onigiri-go-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onigiri-go-swiftTests.debug.xcconfig"; path = "Target Support Files/Pods-onigiri-go-swiftTests/Pods-onigiri-go-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
-		65462AFF438577C8D4D6AF44 /* Pods_onigiri_go_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onigiri_go_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9711F3CA64AFE8F5AA930E2A /* Pods-onigiri-go-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onigiri-go-swiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-onigiri-go-swiftUITests/Pods-onigiri-go-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		AB07DEF77EEED15D39C5A94F /* Pods_onigiri_go_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onigiri_go_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C61C15E42BDE94872093A2B2 /* Pods-onigiri-go-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onigiri-go-swift.release.xcconfig"; path = "Target Support Files/Pods-onigiri-go-swift/Pods-onigiri-go-swift.release.xcconfig"; sourceTree = "<group>"; };
-		CCEB31AB482E4A92E5819886 /* Pods_onigiri_go_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onigiri_go_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C4514422E2F53F0035C4A6 /* onigiri-go-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "onigiri-go-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C4515822E2F5400035C4A6 /* onigiri-go-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "onigiri-go-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C4515C22E2F5400035C4A6 /* onigiri_go_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onigiri_go_swiftTests.swift; sourceTree = "<group>"; };
@@ -65,6 +54,7 @@
 		E4F2D920232F7CB800E095E3 /* PrepareWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareWorkoutViewController.swift; sourceTree = "<group>"; };
 		E4F2D922232FC8EF00E095E3 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
 		F110B4792BD1E9A47627A7EF /* Pods-onigiri-go-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onigiri-go-swiftUITests.release.xcconfig"; path = "Target Support Files/Pods-onigiri-go-swiftUITests/Pods-onigiri-go-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E4C4519422E6113A0035C4A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9060EC3C07F6ECF8B3749946 /* Pods_onigiri_go_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +69,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B892D1BC17E618BB3C14C0D7 /* Pods_onigiri_go_swiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCE9889DDB0C962715A1A3F1 /* Pods_onigiri_go_swiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,8 +112,6 @@
 				E4C4515B22E2F5400035C4A6 /* onigiri-go-swiftTests */,
 				E4C4516622E2F5400035C4A6 /* onigiri-go-swiftUITests */,
 				E4C4514522E2F53F0035C4A6 /* Products */,
-				0CA420E449904CE0E31401C7 /* Pods */,
-				0B067B3AFDCB5894186CA766 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -238,11 +223,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4C4516C22E2F5400035C4A6 /* Build configuration list for PBXNativeTarget "onigiri-go-swift" */;
 			buildPhases = (
-				256D4EBE4E359F3A175843B1 /* [CP] Check Pods Manifest.lock */,
 				E4C4514022E2F53F0035C4A6 /* Sources */,
 				E4C4514122E2F53F0035C4A6 /* Frameworks */,
 				E4C4514222E2F53F0035C4A6 /* Resources */,
-				D2711AF10368D766E10A7933 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,7 +240,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4C4516F22E2F5400035C4A6 /* Build configuration list for PBXNativeTarget "onigiri-go-swiftTests" */;
 			buildPhases = (
-				790EDF4FBD9ADB28C60097E2 /* [CP] Check Pods Manifest.lock */,
 				E4C4515422E2F5400035C4A6 /* Sources */,
 				E4C4515522E2F5400035C4A6 /* Frameworks */,
 				E4C4515622E2F5400035C4A6 /* Resources */,
@@ -276,7 +258,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4C4517222E2F5400035C4A6 /* Build configuration list for PBXNativeTarget "onigiri-go-swiftUITests" */;
 			buildPhases = (
-				D7D57BE08341BD01769003BA /* [CP] Check Pods Manifest.lock */,
 				E4C4515F22E2F5400035C4A6 /* Sources */,
 				E4C4516022E2F5400035C4A6 /* Frameworks */,
 				E4C4516122E2F5400035C4A6 /* Resources */,
@@ -358,92 +339,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		256D4EBE4E359F3A175843B1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-onigiri-go-swift-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		790EDF4FBD9ADB28C60097E2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-onigiri-go-swiftTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D2711AF10368D766E10A7933 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-onigiri-go-swift/Pods-onigiri-go-swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-onigiri-go-swift/Pods-onigiri-go-swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-onigiri-go-swift/Pods-onigiri-go-swift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D7D57BE08341BD01769003BA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-onigiri-go-swiftUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E4C4514022E2F53F0035C4A6 /* Sources */ = {
@@ -614,7 +509,6 @@
 		};
 		E4C4516D22E2F5400035C4A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3077548D9D1FAC02977A1C43 /* Pods-onigiri-go-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -632,7 +526,6 @@
 		};
 		E4C4516E22E2F5400035C4A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C61C15E42BDE94872093A2B2 /* Pods-onigiri-go-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -650,7 +543,6 @@
 		};
 		E4C4517022E2F5400035C4A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AA7E4764E26C000607C893D /* Pods-onigiri-go-swiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -671,7 +563,6 @@
 		};
 		E4C4517122E2F5400035C4A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 033FC5A6EDC0D1C2ED2AE931 /* Pods-onigiri-go-swiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -692,7 +583,6 @@
 		};
 		E4C4517322E2F5400035C4A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9711F3CA64AFE8F5AA930E2A /* Pods-onigiri-go-swiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -712,7 +602,6 @@
 		};
 		E4C4517422E2F5400035C4A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F110B4792BD1E9A47627A7EF /* Pods-onigiri-go-swiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
