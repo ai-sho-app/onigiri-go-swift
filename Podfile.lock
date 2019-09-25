@@ -1,16 +1,20 @@
 PODS:
   - HELargeCenterTabBarController (2.1.0)
+  - UICircularProgressRing (6.2.1)
 
 DEPENDENCIES:
   - HELargeCenterTabBarController
+  - UICircularProgressRing
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - HELargeCenterTabBarController
+    - UICircularProgressRing
 
 SPEC CHECKSUMS:
   HELargeCenterTabBarController: 3a3656061a3b04f02e5b183b966c6881bdb0ec18
+  UICircularProgressRing: b52543c79dbd89844e13f0053e3f565b7d7efc5c
 
-PODFILE CHECKSUM: 0e672796db9d43fb6a63ebb282ea8df6242ffdf3
+PODFILE CHECKSUM: 63614d90c9b2907dc070a42ed562cd387bfe4968
 
 COCOAPODS: 1.7.5
