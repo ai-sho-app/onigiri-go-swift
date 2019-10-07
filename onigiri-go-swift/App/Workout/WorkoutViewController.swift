@@ -19,10 +19,12 @@ class WorkoutViewController: UIViewController {
         // ring.center = self.view.center
         ring.maxValue = 100
         ring.style = .ontop
-        ring.gradientOptions = UICircularRingGradientOptions(startPosition: .topRight,
-                                                             endPosition: .topLeft,
+        ring.gradientOptions = UICircularRingGradientOptions(startPosition: .bottom,
+                                                             endPosition: .top,
                                                              colors: [UIColor.themeOrange],
                                                              colorLocations: [1.0])
+        // progress to start from the top
+        ring.startAngle = -90
         return ring
     }()
 
