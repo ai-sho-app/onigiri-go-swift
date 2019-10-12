@@ -31,7 +31,7 @@ class WorkoutViewController: UIViewController {
     lazy var stopWorkoutButton: UIButton = {
         let button = UIButton(type: .custom)
         button.setImage(UIImage(named: "btn_stop"), for: .normal)
-        button.frame = CGRect(x:0, y:0, width:100, height:100)
+        button.frame = CGRect(x:0, y:0, width:80, height:80)
         button.center = self.view.center
         button.setTitle("back!", for: .normal)
         let longGesture = UILongPressGestureRecognizer(target: self, action: #selector(pressStopWorkout(sender:)))

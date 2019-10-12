@@ -9,24 +9,24 @@
 import UIKit
 
 class HomeTabViewController: UITabBarController {
-    
+
     let homeVC: HomeViewController = {
         let vc = HomeViewController()
         vc.view.backgroundColor = UIColor.white
-        vc.tabBarItem = UITabBarItem(title: nil, image: UIImage(named:"Home.png"), tag: 1)
+        vc.tabBarItem = UITabBarItem(title: nil, image: UIImage(named:"footer_home.png"), tag: 1)
         return vc
     }()
 
     let reportVC: ReportViewController = {
         let vc = ReportViewController()
         vc.view.backgroundColor = UIColor.white
-        vc.tabBarItem = UITabBarItem(title: nil, image: UIImage(named:"Report.png"), tag: 1)
+        vc.tabBarItem = UITabBarItem(title: nil, image: UIImage(named:"footer_record.png"), tag: 1)
         return vc
     }()
 
     lazy var workoutButton: UIButton = {
         let button = UIButton(type: .custom)
-        button.setImage(UIImage(named: "ButtonStart"), for: .normal)
+        button.setImage(UIImage(named: "btn_start.png"), for: .normal)
         // button.center = self.tabBar.center
         let width: CGFloat = 110
         let height: CGFloat = 100

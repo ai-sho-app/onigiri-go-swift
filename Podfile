@@ -6,7 +6,6 @@ target 'onigiri-go-swift' do
   use_frameworks!
 
   # Pods for onigiri-go-swift
-  pod 'HELargeCenterTabBarController'
   pod 'UICircularProgressRing'
 
   target 'onigiri-go-swiftTests' do
