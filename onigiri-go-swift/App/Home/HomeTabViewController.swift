@@ -16,10 +16,10 @@ class HomeTabViewController: UITabBarController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         HomeVC.view.backgroundColor = UIColor.white
-        HomeVC.tabBarItem = UITabBarItem(title: nil, image: UIImage(named:"Home.png"), tag: 1)
+        HomeVC.tabBarItem = UITabBarItem(title: nil, image: UIImage(named:"footer_home_active.png"), tag: 1)
 
         ReportVC.view.backgroundColor = UIColor.white
-        ReportVC.tabBarItem = UITabBarItem(title: nil, image: UIImage(named:"Report.png"), tag: 1)
+        ReportVC.tabBarItem = UITabBarItem(title: nil, image: UIImage(named:"footer_record.png"), tag: 1)
 
         self.setViewControllers([HomeVC, ReportVC], animated: false)
         self.tabBar.tintColor = UIColor.themeOrange
