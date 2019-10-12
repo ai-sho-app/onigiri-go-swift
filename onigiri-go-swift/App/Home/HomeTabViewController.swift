@@ -26,7 +26,7 @@ class HomeTabViewController: UITabBarController {
 
     lazy var workoutButton: UIButton = {
         let button = UIButton(type: .custom)
-        button.setImage(UIImage(named: "ButtonStart"), for: .normal)
+        button.setImage(UIImage(named: "btn_start.png"), for: .normal)
         // button.center = self.tabBar.center
         let width: CGFloat = 110
         let height: CGFloat = 100

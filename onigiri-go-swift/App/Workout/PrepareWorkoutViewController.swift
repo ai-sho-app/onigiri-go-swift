@@ -30,7 +30,7 @@ class PrepareWorkoutViewController: UIViewController {
 
     lazy var backButton: UIButton = {
         let button = UIButton(type: .custom)
-        button.setImage(UIImage(named: "ButtonStart"), for: .normal)
+        button.setImage(UIImage(named: "btn_workout"), for: .normal)
         button.frame = CGRect(x:0, y:0, width:100, height:100)
         button.center = self.view.center
         button.setTitle("back!", for: .normal)
