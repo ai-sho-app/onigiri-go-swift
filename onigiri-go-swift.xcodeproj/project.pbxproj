@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AC339FA22FC6E1B0BF9AF30 /* Pods_onigiri_go_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA7B78313D34A45BF8699CB /* Pods_onigiri_go_swiftTests.framework */; };
+		99EE4442F425F964EA161EA1 /* Pods_onigiri_go_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C7FE863B966AA8E9E6F9AF /* Pods_onigiri_go_swiftUITests.framework */; };
+		B2B95847F9B7656220A63257 /* Pods_onigiri_go_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6741465BA12CF99BBF5BF729 /* Pods_onigiri_go_swift.framework */; };
 		E4C4515D22E2F5400035C4A6 /* onigiri_go_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4515C22E2F5400035C4A6 /* onigiri_go_swiftTests.swift */; };
 		E4C4516822E2F5400035C4A6 /* onigiri_go_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4516722E2F5400035C4A6 /* onigiri_go_swiftUITests.swift */; };
 		E4C4518022E31B9F0035C4A6 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4517822E31B9E0035C4A6 /* HomeTabViewController.swift */; };
@@ -14,7 +17,9 @@
 		E4C4518822E324FC0035C4A6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4518722E324FC0035C4A6 /* HomeViewController.swift */; };
 		E4C4518A22E325A30035C4A6 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4518922E325A30035C4A6 /* ReportViewController.swift */; };
 		E4C4519322E60FF60035C4A6 /* CustomUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4519222E60FF60035C4A6 /* CustomUIColor.swift */; };
-		E4C4519522E6113A0035C4A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C4519422E6113A0035C4A6 /* Assets.xcassets */; };
+		E4F2D91F230C482300E095E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F2D91E230C482300E095E3 /* Assets.xcassets */; };
+		E4F2D921232F7CB800E095E3 /* PrepareWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F2D920232F7CB800E095E3 /* PrepareWorkoutViewController.swift */; };
+		E4F2D923232FC8EF00E095E3 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F2D922232FC8EF00E095E3 /* WorkoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AA7B78313D34A45BF8699CB /* Pods_onigiri_go_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onigiri_go_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C7FE863B966AA8E9E6F9AF /* Pods_onigiri_go_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onigiri_go_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4582C8056F958794F22B86B9 /* Pods-onigiri-go-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onigiri-go-swiftTests.debug.xcconfig"; path = "Target Support Files/Pods-onigiri-go-swiftTests/Pods-onigiri-go-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		52C4D1597827124CB32AB944 /* Pods-onigiri-go-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onigiri-go-swift.debug.xcconfig"; path = "Target Support Files/Pods-onigiri-go-swift/Pods-onigiri-go-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		5E8DE77AFC4C7100D7132D16 /* Pods-onigiri-go-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onigiri-go-swiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-onigiri-go-swiftUITests/Pods-onigiri-go-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6741465BA12CF99BBF5BF729 /* Pods_onigiri_go_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onigiri_go_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77F6C04078201CD10E1E6A7 /* Pods-onigiri-go-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onigiri-go-swiftUITests.release.xcconfig"; path = "Target Support Files/Pods-onigiri-go-swiftUITests/Pods-onigiri-go-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C31D1C222791DD73B71E3454 /* Pods-onigiri-go-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onigiri-go-swift.release.xcconfig"; path = "Target Support Files/Pods-onigiri-go-swift/Pods-onigiri-go-swift.release.xcconfig"; sourceTree = "<group>"; };
+		CE9F9A9FC6BD4A085EAAF604 /* Pods-onigiri-go-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onigiri-go-swiftTests.release.xcconfig"; path = "Target Support Files/Pods-onigiri-go-swiftTests/Pods-onigiri-go-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		E4C4514422E2F53F0035C4A6 /* onigiri-go-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "onigiri-go-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C4515822E2F5400035C4A6 /* onigiri-go-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "onigiri-go-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C4515C22E2F5400035C4A6 /* onigiri_go_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onigiri_go_swiftTests.swift; sourceTree = "<group>"; };
@@ -48,7 +62,9 @@
 		E4C4518722E324FC0035C4A6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E4C4518922E325A30035C4A6 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 		E4C4519222E60FF60035C4A6 /* CustomUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIColor.swift; sourceTree = "<group>"; };
-		E4C4519422E6113A0035C4A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4F2D91E230C482300E095E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4F2D920232F7CB800E095E3 /* PrepareWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareWorkoutViewController.swift; sourceTree = "<group>"; };
+		E4F2D922232FC8EF00E095E3 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B95847F9B7656220A63257 /* Pods_onigiri_go_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AC339FA22FC6E1B0BF9AF30 /* Pods_onigiri_go_swiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99EE4442F425F964EA161EA1 /* Pods_onigiri_go_swiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66A0FA565093DFA3877C1A75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6741465BA12CF99BBF5BF729 /* Pods_onigiri_go_swift.framework */,
+				0AA7B78313D34A45BF8699CB /* Pods_onigiri_go_swiftTests.framework */,
+				42C7FE863B966AA8E9E6F9AF /* Pods_onigiri_go_swiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E4C4513B22E2F53F0035C4A6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				E4C4515B22E2F5400035C4A6 /* onigiri-go-swiftTests */,
 				E4C4516622E2F5400035C4A6 /* onigiri-go-swiftUITests */,
 				E4C4514522E2F53F0035C4A6 /* Products */,
+				EC2D32D7F0540744BB63F700 /* Pods */,
+				66A0FA565093DFA3877C1A75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,6 +194,8 @@
 		E4C4517C22E31B9E0035C4A6 /* Workout */ = {
 			isa = PBXGroup;
 			children = (
+				E4F2D920232F7CB800E095E3 /* PrepareWorkoutViewController.swift */,
+				E4F2D922232FC8EF00E095E3 /* WorkoutViewController.swift */,
 			);
 			path = Workout;
 			sourceTree = "<group>";
@@ -170,7 +203,7 @@
 		E4C4517D22E31B9E0035C4A6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E4C4519422E6113A0035C4A6 /* Assets.xcassets */,
+				E4F2D91E230C482300E095E3 /* Assets.xcassets */,
 				E4C4517F22E31B9E0035C4A6 /* Info.plist */,
 			);
 			path = Resources;
@@ -185,6 +218,20 @@
 			path = "onigiri-go-swift/App/utility";
 			sourceTree = SOURCE_ROOT;
 		};
+		EC2D32D7F0540744BB63F700 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52C4D1597827124CB32AB944 /* Pods-onigiri-go-swift.debug.xcconfig */,
+				C31D1C222791DD73B71E3454 /* Pods-onigiri-go-swift.release.xcconfig */,
+				4582C8056F958794F22B86B9 /* Pods-onigiri-go-swiftTests.debug.xcconfig */,
+				CE9F9A9FC6BD4A085EAAF604 /* Pods-onigiri-go-swiftTests.release.xcconfig */,
+				5E8DE77AFC4C7100D7132D16 /* Pods-onigiri-go-swiftUITests.debug.xcconfig */,
+				B77F6C04078201CD10E1E6A7 /* Pods-onigiri-go-swiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4C4516C22E2F5400035C4A6 /* Build configuration list for PBXNativeTarget "onigiri-go-swift" */;
 			buildPhases = (
+				1B51FA368463C5E19948400B /* [CP] Check Pods Manifest.lock */,
 				E4C4514022E2F53F0035C4A6 /* Sources */,
 				E4C4514122E2F53F0035C4A6 /* Frameworks */,
 				E4C4514222E2F53F0035C4A6 /* Resources */,
+				97E83454EE1B12027E959382 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -209,6 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4C4516F22E2F5400035C4A6 /* Build configuration list for PBXNativeTarget "onigiri-go-swiftTests" */;
 			buildPhases = (
+				3D61BB832B0FADBEE90479B8 /* [CP] Check Pods Manifest.lock */,
 				E4C4515422E2F5400035C4A6 /* Sources */,
 				E4C4515522E2F5400035C4A6 /* Frameworks */,
 				E4C4515622E2F5400035C4A6 /* Resources */,
@@ -227,6 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4C4517222E2F5400035C4A6 /* Build configuration list for PBXNativeTarget "onigiri-go-swiftUITests" */;
 			buildPhases = (
+				B6B7E73CDEE02676C8710BB6 /* [CP] Check Pods Manifest.lock */,
 				E4C4515F22E2F5400035C4A6 /* Sources */,
 				E4C4516022E2F5400035C4A6 /* Frameworks */,
 				E4C4516122E2F5400035C4A6 /* Resources */,
@@ -289,7 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C4519522E6113A0035C4A6 /* Assets.xcassets in Resources */,
+				E4F2D91F230C482300E095E3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,12 +360,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B51FA368463C5E19948400B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-onigiri-go-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D61BB832B0FADBEE90479B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-onigiri-go-swiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97E83454EE1B12027E959382 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-onigiri-go-swift/Pods-onigiri-go-swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-onigiri-go-swift/Pods-onigiri-go-swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-onigiri-go-swift/Pods-onigiri-go-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6B7E73CDEE02676C8710BB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-onigiri-go-swiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4C4514022E2F53F0035C4A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F2D921232F7CB800E095E3 /* PrepareWorkoutViewController.swift in Sources */,
 				E4C4519322E60FF60035C4A6 /* CustomUIColor.swift in Sources */,
+				E4F2D923232FC8EF00E095E3 /* WorkoutViewController.swift in Sources */,
 				E4C4518A22E325A30035C4A6 /* ReportViewController.swift in Sources */,
 				E4C4518122E31B9F0035C4A6 /* AppDelegate.swift in Sources */,
 				E4C4518022E31B9F0035C4A6 /* HomeTabViewController.swift in Sources */,
@@ -391,6 +530,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -405,6 +545,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -452,6 +593,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -460,6 +602,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -472,6 +615,7 @@
 		};
 		E4C4516D22E2F5400035C4A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C4D1597827124CB32AB944 /* Pods-onigiri-go-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -489,6 +633,7 @@
 		};
 		E4C4516E22E2F5400035C4A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31D1C222791DD73B71E3454 /* Pods-onigiri-go-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -506,6 +651,7 @@
 		};
 		E4C4517022E2F5400035C4A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4582C8056F958794F22B86B9 /* Pods-onigiri-go-swiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -526,6 +672,7 @@
 		};
 		E4C4517122E2F5400035C4A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE9F9A9FC6BD4A085EAAF604 /* Pods-onigiri-go-swiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -546,6 +693,7 @@
 		};
 		E4C4517322E2F5400035C4A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E8DE77AFC4C7100D7132D16 /* Pods-onigiri-go-swiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -565,6 +713,7 @@
 		};
 		E4C4517422E2F5400035C4A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77F6C04078201CD10E1E6A7 /* Pods-onigiri-go-swiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
