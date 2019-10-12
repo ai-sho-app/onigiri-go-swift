@@ -9,29 +9,22 @@
 import UIKit
 
 class HomeTabViewController: UITabBarController {
-    var HomeVC = HomeViewController()
-    var ReportVC = ReportViewController()
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        HomeVC.view.backgroundColor = UIColor.white
-        HomeVC.tabBarItem = UITabBarItem(title: nil, image: UIImage(named:"footer_home_active.png"), tag: 1)
 
-        ReportVC.view.backgroundColor = UIColor.white
-        ReportVC.tabBarItem = UITabBarItem(title: nil, image: UIImage(named:"footer_record.png"), tag: 1)
+    let homeVC: HomeViewController = {
+        let vc = HomeViewController()
+        vc.view.backgroundColor = UIColor.white
+        vc.tabBarItem = UITabBarItem(title: nil, image: UIImage(named:"Home.png"), tag: 1)
+        return vc
+    }()
 
-        self.setViewControllers([HomeVC, ReportVC], animated: false)
-        self.tabBar.tintColor = UIColor.themeOrange
+    let reportVC: ReportViewController = {
+        let vc = ReportViewController()
+        vc.view.backgroundColor = UIColor.white
+        vc.tabBarItem = UITabBarItem(title: nil, image: UIImage(named:"Report.png"), tag: 1)
+        return vc
+    }()
 
-        self.view.bringSubviewToFront(self.tabBar)
-        self.addCenterButton()
-//        if let unselectedImage = UIImage(named: "ButtonStart"), let selectedImage = UIImage(named: "ButtonStart") {
-//            self.addCenterButton(unselectedImage: unselectedImage, selectedImage: selectedImage, target: self, action: #selector(buttonEvent(sender:)), allowSwitch: true)
-//        }
-    }
-
-    private func addCenterButton() {
+    lazy var workoutButton: UIButton = {
         let button = UIButton(type: .custom)
         button.setImage(UIImage(named: "ButtonStart"), for: .normal)
         // button.center = self.tabBar.center
@@ -40,16 +33,23 @@ class HomeTabViewController: UITabBarController {
         button.frame = CGRect(x: (self.tabBar.frame.width - width) / 2,
                               y: self.view.frame.height - self.tabBar.frame.height - height / 1.5,
                               width: width, height: height)
+        button.addTarget(self, action: #selector(pressWorkoutButton(sender:)), for: .touchUpInside)
+        return button
+    }()
 
-        self.view.addSubview(button)
-        self.view.bringSubviewToFront(button)
+    override func viewDidLoad() {
+        super.viewDidLoad()
 
-        button.addTarget(self, action: #selector(buttonEvent(sender:)), for: .touchUpInside)
+        self.setViewControllers([homeVC, reportVC], animated: false)
+        // selected tab color
+        self.tabBar.tintColor = UIColor.themeOrange
+
+        self.view.addSubview(workoutButton)
     }
 
-    @objc
-    private func buttonEvent(sender: UIButton) {
-        print("ボタンが押された")
-        print("このメソッドを呼び出したボタンの情報: \(sender)")
+    @objc private func pressWorkoutButton(sender: UIButton) {
+        print("Press workout button from \(sender)")
+        let prepareWorkoutVC = PrepareWorkoutViewController()
+        self.present(prepareWorkoutVC, animated: true, completion: nil)
     }
 }

@@ -7,6 +7,7 @@ target 'onigiri-go-swift' do
 
   # Pods for onigiri-go-swift
   pod 'HELargeCenterTabBarController'
+  pod 'UICircularProgressRing'
 
   target 'onigiri-go-swiftTests' do
     inherit! :search_paths
