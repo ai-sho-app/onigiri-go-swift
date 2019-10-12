@@ -13,14 +13,14 @@ class HomeTabViewController: UITabBarController {
     let homeVC: HomeViewController = {
         let vc = HomeViewController()
         vc.view.backgroundColor = UIColor.white
-        vc.tabBarItem = UITabBarItem(title: nil, image: UIImage(named:"Home.png"), tag: 1)
+        vc.tabBarItem = UITabBarItem(title: nil, image: UIImage(named:"footer_home.png"), tag: 1)
         return vc
     }()
 
     let reportVC: ReportViewController = {
         let vc = ReportViewController()
         vc.view.backgroundColor = UIColor.white
-        vc.tabBarItem = UITabBarItem(title: nil, image: UIImage(named:"Report.png"), tag: 1)
+        vc.tabBarItem = UITabBarItem(title: nil, image: UIImage(named:"footer_record.png"), tag: 1)
         return vc
     }()
 
