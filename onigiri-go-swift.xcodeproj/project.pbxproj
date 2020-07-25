@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2270732D23521C8B00E1B02D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4C4517F22E31B9E0035C4A6 /* Info.plist */; };
 		3AC339FA22FC6E1B0BF9AF30 /* Pods_onigiri_go_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA7B78313D34A45BF8699CB /* Pods_onigiri_go_swiftTests.framework */; };
 		99EE4442F425F964EA161EA1 /* Pods_onigiri_go_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C7FE863B966AA8E9E6F9AF /* Pods_onigiri_go_swiftUITests.framework */; };
 		B2B95847F9B7656220A63257 /* Pods_onigiri_go_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6741465BA12CF99BBF5BF729 /* Pods_onigiri_go_swift.framework */; };
+		E42C57952354C6A700ECCC12 /* WorkoutMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42C57942354C6A700ECCC12 /* WorkoutMapViewController.swift */; };
+		E42C95BE24BCAD9300585410 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42C95BD24BCAD9300585410 /* CoreLocation.framework */; };
 		E4C4515D22E2F5400035C4A6 /* onigiri_go_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4515C22E2F5400035C4A6 /* onigiri_go_swiftTests.swift */; };
 		E4C4516822E2F5400035C4A6 /* onigiri_go_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4516722E2F5400035C4A6 /* onigiri_go_swiftUITests.swift */; };
 		E4C4518022E31B9F0035C4A6 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4517822E31B9E0035C4A6 /* HomeTabViewController.swift */; };
@@ -50,6 +51,8 @@
 		B77F6C04078201CD10E1E6A7 /* Pods-onigiri-go-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onigiri-go-swiftUITests.release.xcconfig"; path = "Target Support Files/Pods-onigiri-go-swiftUITests/Pods-onigiri-go-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C31D1C222791DD73B71E3454 /* Pods-onigiri-go-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onigiri-go-swift.release.xcconfig"; path = "Target Support Files/Pods-onigiri-go-swift/Pods-onigiri-go-swift.release.xcconfig"; sourceTree = "<group>"; };
 		CE9F9A9FC6BD4A085EAAF604 /* Pods-onigiri-go-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onigiri-go-swiftTests.release.xcconfig"; path = "Target Support Files/Pods-onigiri-go-swiftTests/Pods-onigiri-go-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		E42C57942354C6A700ECCC12 /* WorkoutMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutMapViewController.swift; sourceTree = "<group>"; };
+		E42C95BD24BCAD9300585410 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		E4C4514422E2F53F0035C4A6 /* onigiri-go-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "onigiri-go-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C4515822E2F5400035C4A6 /* onigiri-go-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "onigiri-go-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C4515C22E2F5400035C4A6 /* onigiri_go_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onigiri_go_swiftTests.swift; sourceTree = "<group>"; };
@@ -73,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E42C95BE24BCAD9300585410 /* CoreLocation.framework in Frameworks */,
 				B2B95847F9B7656220A63257 /* Pods_onigiri_go_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,6 +103,7 @@
 		66A0FA565093DFA3877C1A75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E42C95BD24BCAD9300585410 /* CoreLocation.framework */,
 				6741465BA12CF99BBF5BF729 /* Pods_onigiri_go_swift.framework */,
 				0AA7B78313D34A45BF8699CB /* Pods_onigiri_go_swiftTests.framework */,
 				42C7FE863B966AA8E9E6F9AF /* Pods_onigiri_go_swiftUITests.framework */,
@@ -197,6 +202,7 @@
 			children = (
 				E4F2D920232F7CB800E095E3 /* PrepareWorkoutViewController.swift */,
 				E4F2D922232FC8EF00E095E3 /* WorkoutViewController.swift */,
+				E42C57942354C6A700ECCC12 /* WorkoutMapViewController.swift */,
 			);
 			path = Workout;
 			sourceTree = "<group>";
@@ -304,6 +310,11 @@
 				TargetAttributes = {
 					E4C4514322E2F53F0035C4A6 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					E4C4515722E2F5400035C4A6 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -340,7 +351,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2270732D23521C8B00E1B02D /* Info.plist in Resources */,
 				E4F2D91F230C482300E095E3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +466,7 @@
 				E4C4519322E60FF60035C4A6 /* CustomUIColor.swift in Sources */,
 				E4F2D923232FC8EF00E095E3 /* WorkoutViewController.swift in Sources */,
 				E4C4518A22E325A30035C4A6 /* ReportViewController.swift in Sources */,
+				E42C57952354C6A700ECCC12 /* WorkoutMapViewController.swift in Sources */,
 				E4C4518122E31B9F0035C4A6 /* AppDelegate.swift in Sources */,
 				E4C4518022E31B9F0035C4A6 /* HomeTabViewController.swift in Sources */,
 				E4C4518822E324FC0035C4A6 /* HomeViewController.swift in Sources */,
@@ -529,6 +540,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = aisho;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -592,6 +604,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = aisho;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -620,8 +633,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QVXJXP8D8A;
 				INFOPLIST_FILE = "$(SRCROOT)/onigiri-go-swift/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -639,8 +653,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QVXJXP8D8A;
 				INFOPLIST_FILE = "$(SRCROOT)/onigiri-go-swift/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -659,6 +674,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QVXJXP8D8A;
 				INFOPLIST_FILE = "onigiri-go-swiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -680,6 +696,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QVXJXP8D8A;
 				INFOPLIST_FILE = "onigiri-go-swiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -700,6 +717,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QVXJXP8D8A;
 				INFOPLIST_FILE = "onigiri-go-swiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -720,6 +738,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QVXJXP8D8A;
 				INFOPLIST_FILE = "onigiri-go-swiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

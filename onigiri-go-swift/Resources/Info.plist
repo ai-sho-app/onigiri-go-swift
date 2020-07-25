@@ -20,9 +20,19 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>位置情報の記録に必要です</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>位置情報の記録に必要です</string>
+	<key>NSLocationUsageDescription</key>
+	<string>位置情報の記録に必要です</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>位置情報の記録に必要です</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
-	<string></string>
-	<key>UIMainStoryboardFile</key>
 	<string></string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
